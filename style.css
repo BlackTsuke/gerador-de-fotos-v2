@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background-color: rgb(47, 8, 47);
+  background-image: url('./fundo.jpg');
+  background-size: cover;
+  background-blend-mode: overlay;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  padding: 20px;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 10px 10px 0px 5px rgba(0, 0, 0, 0.586);
+}
+
+button {
+  background-color: white;
+  padding: 10px;
+  font-weight: bolder;
+  border: 2px solid rgb(91, 13, 91);
+}
+
+button:hover {
+  color: white;
+  background: rgb(91, 13, 91);
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+/*CRIADOS NO DOM*/
+
+
+.imagemCriada {
+  width: 200px;
+  height: 200px;
+  border-radius: 9999px;
+  border: 2px solid rgb(91, 13, 91);
+  margin: 10px;
+}
+
+.textoAbaixo {
+  width: 300px;
+  padding: 10px;
+  background-color: rgb(91, 13, 91);
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
